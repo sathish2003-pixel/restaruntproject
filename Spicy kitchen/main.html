@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Spicy kitchen</title>
+    <style>
+        body{
+        background-image: url("images/ful\ size.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      
+      }
+      
+            H2{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight:normal;
+      font-style: oblique;
+      font-size: xx-large;
+      color:violet;
+    }
+    .content{
+      padding-top: 50px;
+    }
+      .carousel-item{
+        align-items: center;
+      }
+      h1{
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+
+.flip-card{
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.flip-card-inner{
+  position:relative;
+  width:100%;
+  height:100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner{
+  transform:rotateY( 180deg);
+}
+
+.flip-card-front,
+.flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius:16px;
+}
+
+.flip-card-front{
+  background-image: linear-gradient(45deg,#6f04d9,#d9048e);
+}
+
+.flip-card-front img{
+  width:300px;
+  height: 300px;
+}
+
+.flip-card-back{
+  background-image: linear-gradient(315deg,#6f04d9,#8a045c);
+  color: #ffff;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back img{
+  width:250px;
+  height:200px;
+  margin-top:1rem;
+}
+
+.flip-card-back h3{
+  margin-bottom: 0.3rem;
+}
+.flip-card-back h1{
+  margin:0;
+}
+
+#menu{
+  background-image: url("images/abtt.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+   
+ 
+
+
+
+  <div id="home" class="container-fluid">
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <img src="images/—Pngtree—food logo_8239850.png" width="150px" height="120px" alt="logo" class="image-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#menu">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#about">ABOUT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          
+          <button class="btn btn-outline-light" type="button">Book your table</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    </div>
+  </div>
+</div>   
+</div>
+
+  <fieldset class="bg-light-50">
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <h1 class=" display-2 text-light">Welcome to Spicy Kitchen</h1>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <h5 class="display-4 text-warning">This is simply a heaven for Biriyani lovers.</h5>
+  </figcaption>
+</figure>
+</fieldset>
+  
+
+</div>   
+</div> 
+</div>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <figure class="text-start">
+        <blockquote class="blockquote">
+          <h4 class=" display-4 text-light">Little About Us</h4>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <p class="lead text-light">We love making our customers happy by serving them our tasty food and snacks!<br> High-quality ingredients mixed with excellent service is the best recipe for successful food..</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-lg-4">
+      <img src="images/pexels-valeria-boltneva-842571.jpg"class="img-thumbnail" alt="image" width="400" height="100">
+    </div>
+  
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="images/pexels-dapur-melodi-1109197.jpg"class="img-thumbnail" alt="image" width="400" height="100">
+    </div>
+    <div class="col-lg-8">
+      <figure class="text-start">
+        <blockquote class="blockquote">
+          <h4 class=" display-4 text-light">Perfect Ingredients</h4>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <p class="lead text-light">We keep all the ingredients seasonal, well-sourced and of the highest quality.<br> Everything is hand-iced and baked in small batches to really give the essence of simple old fashioned cooking.</p>
+        </figcaption>
+      </figure>
+      </div>
+
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        
+        
+<!--menu started-->
+ <div id="menu" class="container bg-dark">
+  <div class="row">
+<div class="col-xxl-12"> <h1 class="display-1 text-primary align-center"><b>MEUNS</b></h1><br>
+</div>
+
+
+
+<div class="col-xl-4 pt-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/chicken biriyani.jpg"/>
+      </div>
+      <div class="flip-card-back">
+        <img src="images/chicken biriyani.jpg"/>
+        <h2>Chicken biriyani</h2>
+        <h3>Rs:200</h3>    
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="col-xl-4 pt-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/muttton biriyani.jpeg"/>
+        </div>
+        <div class="flip-card-back">
+          <img src="images/muttton biriyani.jpeg"/>
+          <h2>Mutton biriyani</h2>
+          <h3>Rs:300</h3>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="col-xl-4 pt-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/egg biriyani.jpg"/>
+      </div>
+      <div class="flip-card-back">
+        <img src="images/egg biriyani.jpg"/>
+        <h2>Egg biriyani</h2>
+        <h3>Rs:100</h3>    
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--next row-->
+<div class="col-xl-4 pt-5">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images//finalll.jpg"/>
+        </div>
+        <div class="flip-card-back">
+          <img src="images/finalll.jpg"/>
+          <h2>Chicken-65biriyani</h2>
+          <h3>Rs:250</h3>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-xl-4 pt-5">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/praaaaa.jpg"/>
+          </div>
+          <div class="flip-card-back">
+            <img src="images/praaaaa.jpg"/>
+            <h2>Prawn biriyani</h2>
+            <h3>Rs:350</h3>    
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-xl-4 pt-5">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/lamb biriyani.jpg"/>
+            </div>
+            <div class="flip-card-back">
+              <img src="images/lamb biriyani.jpg"/>
+              <h2>Lamb biriyani</h2>
+              <h3>Rs:400</h3>    
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--third row-->
+<div class="col-xl-4 pt-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="images/chicken tandoori.jpg"/>
+        </div>
+        <div class="flip-card-back">
+          <img src="images/chicken tandoori.jpg"/>
+          <h2>Chicken tandoori</h2>
+          <h3>Rs:400</h3>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-xl-4 pt-4">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/Pepper chicken.jpg"/>
+          </div>
+          <div class="flip-card-back">
+            <img src="images/Pepper chicken.jpg"/>
+            <h2>Pepper Chicken</h2>
+            <h3>Rs:150</h3>    
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-xl-4 pt-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/butter chicken.jpg"/>
+            </div>
+            <div class="flip-card-back">
+              <img src="images/butter chicken.jpg"/>
+              <h2>Butter Chicken</h2>
+              <h3>Rs:180</h3>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--cards ends-->
+    <br><br><br>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<!-- menu finished -->
+
+
+
+
+
+<!-- about started -->
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+<div id="about" class="container-fluid">
+    <div class="row">
+
+      <div class="col-xxl-12 pt-5 mt-5">
+       
+
+        <h1 style="border-left: 10px solid red;padding-right: 70%; " class="display-1 text-dark"><b>About us</b></h1>
+
+       <h4> <ul>Spicy Kitchen opened its first outlet in the year 2000 and has grown from a single shop selling 10 Kgs of Biriyani to 25 modern outlets preparing other delectable Indian cuisine. Currently have upwards of 1000 walk-in’s daily and sell more than a ton of biriyani daily.</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <ul> A perfect place to hangout and socialize with excellent food.</ul>
+
+<ul>We have combined menu variety, atmosphere, ambience, special colored theme nights and a friendly staff to reach our goal of overall value in the dinning experience.
+
+We feature a cozy dinning, comfortable furnishings and cheerful decor for extra comfort. To please a large group of people, business meets, and get together we make up reservations and arrangements for customers.</ul></h4>
+</div>
+
+  
+      </div>
+  </div> 
+  
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+  <footer id="footer" class="footer bg-dark text-light">
+
+    <div class="container-fluid">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022 - US<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+        <div class="col-xxl-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+</div>
+</div>
+      </div>
+    </div>
+    
+  </footer>
+</body>
+</html>
